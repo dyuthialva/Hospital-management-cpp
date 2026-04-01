@@ -1,7 +1,6 @@
 # 🏥 Hospital Patient Management System (C++)
 
-A simple yet structured C++ project that simulates a hospital patient handling system using **Object-Oriented Programming (OOP)** and **Data Structures (Queue)**.
-
+A C++ project simulating a hospital patient management system, built to apply OOP concepts and Queue-based logic for handling real-world priority scenarios.
 ---
 
 ## 📌 Problem Statement
