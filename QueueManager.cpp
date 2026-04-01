@@ -26,6 +26,7 @@ void QueueManager::servePatient() {
         cout << "Serving Emergency Patient: ";
         p->display();
         cout << endl;
+        delete p;
     }
     else if (!normalQueue.empty()) {
         Patient* p = normalQueue.front();
@@ -33,6 +34,8 @@ void QueueManager::servePatient() {
         cout << "Serving General Patient: ";
         p->display();
         cout << endl;
+        delete p;
+
     }
     else {
         cout << "No patients waiting.\n";
